@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajibola Balogun David</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ee6287947.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ajibola</span><br> from Lagos, Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Ajibola Balogun (Balo) is a UI/UX designer with about 2 years of expertise in user-centered design.
+                        He prefers to think of himself as a curious and talented person with a strong interest in visual design. 
+                        A google certified UX designer, his skill is best demonstrated by fine-tuning visual details, finding inconsistencies throughout the UX process
+                        He enjoys solving challenges with human-centered approaches 
+                        that always put the user first, which is why he  enjoys UX.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/app interface</li>
+                                <li><span>INTERACTION DESIGN</span><br>pconnecting high fidelity designs and prototyping for user testing</li>
+                                <li><span>MOBILE DEVELOPMENT</span><br>Building aesthically pleasing cross platform apps with flutter(dart)</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>DIGITAL HEIGHTS TECHNOLOGY</span><br>Currently working as a UI/UX designer <br> (February 2023 - date)</li>
+                                <li><span>FREELANCE</span><br> working with different clients as a freelanceUI/UX designer <br> (March 2022-date)</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>LADOKE AKINTOLA UNIVERSITY</span><br>Computer science <br> (September 2019 - January 2023)</li>
+                                <li><span>YABA COLLEGE OF TECNOLOGY</span><br>Electrical/Electronic Engineering <br> (November 2011- September 2014)</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----services---->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>doing a lot</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Interaction design</h2>
+                    <p>doing a lot</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>mobile dev</h2>
+                    <p>doing a lot</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-----my work---->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/ref.png">
+                        <div class="layer">
+                            <h3>Charisend App</h3>
+                            <p>still in works, will be publishing soon, please be on the look out</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/npc 2.png">
+                        <div class="layer">
+                            <h3>NPC App redesign</h3>
+                            <p>still in works, will be publishing soon, please be on the look out</p>
+                            <a target="_blank" href="https://www.behance.net/gallery/150822127/Nigerian-property-center-app-redesign-UX-case-study"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tech b.png">
+                        <div class="layer">
+                            <h3>Tech B website</h3>
+                            <p>still in works, will be publishing soon, please be on the look out</p>
+                            <a target="_blank"  href="https://www.behance.net/gallery/162080611/TechB"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="portfolio.html" class="btn">See more</a>
+            </div>
+        </div>
+     <!-----contact---->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>ajibolabalogun35@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+2347030571374</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.behance.net/ajibolabalogun1"><i class="fa-brands fa-behance"></i>
+                        <a target="_blank" href="https://www.linkedin.com/in/ajibola-balogun-841b0b1b7/"><i class="fa-brands fa-linkedin"></i>
+                        <a target="_blank" href="https://twitter.com/ajibola_balo"><i class="fa-brands fa-square-twitter"></i>
+                    </div>
+                    <a target="_blank" href="https://drive.google.com/file/d/1NT_Wita5nc04IIXJTw9F_Rn6u1J8YpsY/view?usp=sharing" class="btn btn2">View CV</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright Ajibola. Made by Balo with <i class="fa-solid fa-hand-peace"></i> his peace sign</p>
+        </div>
+     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-100%";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMcZ6RCv5hHdY1VXq1c6NXBwQWMJ4a_X_1NitGSUImU3tFsF1Wq6_ElkkpNolrjhnr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
